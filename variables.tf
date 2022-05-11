@@ -13,3 +13,14 @@ variable "tenant_id" {
 variable "client_secret" {
   description = "Client Secret"
 }
+
+variable "location" {
+ description "RG location"
+  
+}
+
+variable "RGName" {
+  description " RG name" 
+  
+}
+
