@@ -9,7 +9,7 @@ provider "azurerm" {
 
 #create resource group
 resource "azurerm_resource_group" "rg" {
-    name     = "elastic-rg"
+    name     = var.RGName
     location = var.location
 }
 
