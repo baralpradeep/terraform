@@ -15,12 +15,12 @@ variable "client_secret" {
 }
 
 variable "location" {
- description "RG location"
+ description = "RG location"
   
 }
 
 variable "RGName" {
-  description " RG name" 
+  description = " RG name" 
   
 }
 
