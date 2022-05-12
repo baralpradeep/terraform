@@ -12,6 +12,7 @@ resource "azurerm_resource_group" "rg" {
     name     = var.RGName
     location = var.location
 }
+#end
 
 
 
